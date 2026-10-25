@@ -1,0 +1,70 @@
+【網頁開始】<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安全巡查報告</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0f77c36;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            padding: 20px;
+        }
+        .button-container {
+            width: 75%;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .menu-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #012307;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 8px;
+            text-align: left;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.2s;
+            box-sizing: border-box;
+        }
+        .menu-btn:hover {
+            background-color: #e6b800;
+        }
+        .disabled {
+            background-color: #74e248;
+            color: #012307;
+            cursor: not-allowed;
+        }
+        .disabled:hover {
+            background-color: #74e248;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button-container">
+       
+        <a href="#" class="menu-btn disabled" onclick="return false;">填入公司名稱</a>
+        <a href="#" class="menu-btn disabled" onclick="return false;">SIR Safety Inspection Report</a>
+        <a href="#" class="menu-btn disabled" onclick="return false;">Project list 安全巡查列表</a>
+        <a href="#" class="menu-btn disabled" onclick="return false;">項目代號/名稱</a>
+        <a href="從使用說明頁面複製的巡查員專用網址路徑" target="_blank" class="menu-btn">項目代號</a>
+        
+        <a href="https://sir-35236769617.us-central1.run.app/logo7.jpeg" target="_blank" class="menu-btn">巡查員使用說明</a>
+        
+        
+        
+        
+    </div>
+
+</body>
+</html>【網頁結束】
